@@ -1,0 +1,57 @@
+---
+title: "Airbnb listings in Edinburgh"
+author: "Siyu"
+date: "2023-01-23"
+output: html_document
+---
+
+## Load packages and data
+
+```{r load-packages, message = FALSE}
+library(tidyverse)
+library(dsbox)
+```
+
+## Exercises
+
+### Exercise 1
+
+13245. 
+
+### Exercise 2
+
+Each row represents a listing in Edinburgh.
+
+### Exercise 3
+
+Remove this text, and add your answer for Exercise 3 here.
+
+```{r prices-neighbourhoods}
+ggplot(data = edibnb, mapping = aes(x = price)) +
+  geom_histogram(binwidth = 10) +
+  facet_wrap(~neighbourhood)
+```
+
+### Exercise 4
+
+Remove this text, and add your answer for Exercise 4 here.
+
+```{r top-5-median}
+# remove this comment and add the code for Exercise 4 here
+```
+
+```{r top-5-median-plot}
+# remove this comment and add the code for Exercise 4 here
+```
+
+```{r top-5-median-summary-stats}
+# remove this comment and add the code for Exercise 4 here
+```
+
+### Exercise 5
+
+Remove this text, and add your answer for Exercise 5 here.
+
+```{r review-scores-rating}
+# remove this comment and add the code for Exercise 5 here
+```
